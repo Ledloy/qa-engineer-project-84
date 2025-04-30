@@ -22,7 +22,7 @@ tests:
     status: fail
   - summary: |
       Проверка обработки большого количества трафика
-    status: pass
+    status: fail
   - summary: |
       Проверка просмотра товаров и их подробной информации
     status: pass
