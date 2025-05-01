@@ -4,7 +4,7 @@ tests:
     status: fail
   - summary: |
       Проверка скорости работы сайта
-    status: fail
+    status: pass
   - summary: |
       Проверка безопасности сайта
     status: pass
@@ -22,7 +22,7 @@ tests:
     status: fail
   - summary: |
       Проверка обработки большого количества трафика
-    status: fail
+    status:pass
   - summary: |
       Проверка просмотра товаров и их подробной информации
     status: pass
