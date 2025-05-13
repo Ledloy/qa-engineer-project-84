@@ -39,7 +39,7 @@
   status: fail
 - summary: |
     Интуитивность интерфейса
-    status: fail
+  status: fail
 - summary: |
     Время загрузки главной страницы
   status: pass
