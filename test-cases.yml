@@ -143,7 +143,7 @@
 - summary: Кроссбраузерная совместимость
   requirement: Сайт должен работать во всех популярных браузерах
   prerequisites: Установлены Safari, Chrome, Firefox, Yandex
-  test-data:
+  test-data:|
     - Браузеры = ["Safari 18", Google Chrome 136.0.7103.49 (официальная сборка)
       (64-бит), Firefox 138.0.1, Yandex 25.4.0.1973 (64-bit)]
     - Операционные системы = [macOS 15 Sequoia, "Windows 11"]
