@@ -143,13 +143,13 @@
 - summary: Кроссбраузерная совместимость
   requirement: Сайт должен работать во всех популярных браузерах
   prerequisites: Установлены Safari, Chrome, Firefox, Yandex
-  test-data:|
-    - Браузеры = ["Safari 18", Google Chrome 136.0.7103.49 (официальная сборка), (64-бит), Firefox 138.0.1, Yandex 25.4.0.1973 (64-bit)]
-    - Операционные системы = [macOS 15 Sequoia, "Windows 11"]
-    - ОС MacOS 15 Sequoia (эмулятор) — https://www.browserling.com/
-    - Safari 18 (эмулятор) — https://www.browserling.com/
-    - Разрешение экрана = ["1920x1080 (ПК)", "Windows 11]
-    - Разрешение экрана = ["1280x800 (ПК)", macOS 15 Sequoia]
+  test-data: |
+      Браузеры = ["Safari 18", Google Chrome 136.0.7103.49 (официальная сборка), (64-бит), Firefox 138.0.1, Yandex 25.4.0.1973 (64-bit)]
+      Операционные системы = [macOS 15 Sequoia, "Windows 11"]
+      ОС MacOS 15 Sequoia (эмулятор) — https://www.browserling.com/
+      Safari 18 (эмулятор) — https://www.browserling.com/
+      Разрешение экрана = ["1920x1080 (ПК)", "Windows 11]
+      Разрешение экрана = ["1280x800 (ПК)", macOS 15 Sequoia]
   steps:
     - Открыть сайт в каждом браузере
     - Проверить отображение и выполнение действий
