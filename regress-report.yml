@@ -1,58 +1,74 @@
 test-cases:
-  - summary: |
-      Проверка создания заказа
-    status: pass
-  - summary: |
-      Проверка пагинации
-    status: fail
-  - summary: |
-      Поиск товаров
-    status: fail
-  - summary: |
-      Работа фильтров
-    status: pass
-  - summary: |
-      Фильтры (цена, категория, наличие)
-    status: pass
-  - summary: |
-      Фильтры (граничные значения)
-    status: fail
-  - summary: |
-      Добавление товаров в корзину
-    status: pass
-  - summary: |
-      Адаптация интерфейса для мобильных устройств
-    status: fail
-  - summary: |
-      Кроссбраузерная совместимость
-    status: fail
-  - summary: |
-      Стабильность при высокой нагрузке
-    status: pass
-  - summary: |
-      Переключение языка (Английский)
-    status: pass
-  - summary: |
-      Переключение языка (Русский)
-    status: fail
-  - summary: |
-      Расположение элементов управления
-    status: fail
-  - summary: |
-      Интуитивность интерфейса
-    status: fail
-  - summary: |
-      Время загрузки главной страницы
-    status: pass
-  - summary: |
-      Время отклика при поиске
-    status: pass
-  - summary: |
-      Использование HTTPS
-    status: pass
-  - summary: |
-      Защита от XSS-атак
-    status: pass
+- summary: |
+    Успешное создание заказа
+  status: pass
+- summary: |
+    Успешное добавление товаров в корзину 
+  status: pass
+- summary: |
+    Просмотр корзины после добавления товара и продолжения покупок
+  status: pass
+- summary: |
+    Успешное добавление товара к уже существующим в корзине
+  status: pass
+- summary: |
+    Успешное удаление товара из корзины
+  status: pass
+- summary: |
+    Успешное изменение количества товара в корзине
+  status: pass
+- summary: |
+    Подробный просмотр страницы товара
+  status: pass
+- summary: |
+    Успешная пагинация
+  status: fail
+- summary: |
+    Успешный Поиск товаров
+  status: fail
+- summary: |
+    Успешная работа фильтров
+  status: pass
+- summary: |
+    Успешное применение нескольких фильтров одновременно
+  status: pass
+- summary: |
+    Фильтры (успешная обработка граничных значений)
+  status: fail
+- summary: |
+    Адаптация интерфейса для мобильных устройств
+  status: fail
+- summary: |
+    Кроссбраузерная совместимость
+  status: fail
+- summary: |
+    Стабильность при высокой нагрузке
+  status: pass
+- summary: |
+    Успешное переключение языка (Английский)
+  status: pass
+- summary: |
+    Успешное переключение языка (Русский)
+  status: fail
+- summary: |
+    Расположение элементов управления
+  status: fail
+- summary: |
+    Интуитивность интерфейса
+  status: fail
+- summary: |
+    Время загрузки главной страницы
+  status: pass
+- summary: |
+    Время отклика при поиске
+  status: pass
+- summary: |
+    Использование HTTPS
+  status: pass
+- summary: |
+    Защита от XSS-атак
+  status: pass
+
 bugreports:
   - summary: |
       Недоступны все категории в выпадающем списке "Categories"
